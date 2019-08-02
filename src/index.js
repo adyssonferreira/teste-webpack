@@ -7,3 +7,5 @@ class Teste{
         return a+b;
     }
 }
+
+new Teste()

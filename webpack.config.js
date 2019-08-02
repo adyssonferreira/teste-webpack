@@ -7,7 +7,9 @@ module.exports = {
       filename: 'bundle.js'
     },
 
-    //devServe: ,
+    devServer: {
+        contentBase: path.join(__dirname, 'public')
+    },
 
     module: {
         rules: [{
